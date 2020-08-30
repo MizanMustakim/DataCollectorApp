@@ -73,7 +73,6 @@ def workSave():
                   'Product Size': convert(measure.get()),
                   'Order Date': date,
                   'Order Time': time}
-    # files = [name.get(), id.get(), unit.get(), date, time]
     action.configure(worksheet.append_row(list(dictionary.values())))
 
 
